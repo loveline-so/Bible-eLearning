@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MyELearning</string>
+
+    <string name="appercois">Jetez un coup d\'oiel pour avoir un appercu sur ce que vous auriez à apprendre</string>
+    <string name="bienvenu">Bienvenue pour l\'apprentissage de la Bible.Durant votre étude vous allez beaucoup apprendre sur la parole de DIEU</string>
+    <string name="conexxionone">Creer votre profil et sauvegardez vos informations</string>
+    <string name="conexiontwo">En vous inscrivant vous acceptez nos conditions générales d\'utilisation</string>
+    <string name="facebook">Continuer avec Facebook</string>
+    <string name="google">Continuer avec Google</string>
+    <string name="identifier">Identifiez-vous</string>
+    <string name="deja_inscrit">Deja inscrit ?</string>
+    <string name="ap_gratuit">Apprendre avec Bible eLearning Gratuitement</string>
+    <string name="slogan">Une nouvelle façon d\'acquérir la parole de Dieu!</string>
+    <string name="inscription">Inscrivez-vous sur Bible eLearning</string>
+    <string name="questionnaire">Pourquoi étudis tu la Bible ?</string>
+    <string name="welcome">Avant de commencer nous allons vous posez une simple question</string>
+
 </resources>

@@ -11,7 +11,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pourquoi étudis tu la Bible ?"
+        android:text="@string/questionnaire"
         android:layout_marginTop="70dp"
         android:fontFamily="sans-serif"
        android:layout_gravity="center"

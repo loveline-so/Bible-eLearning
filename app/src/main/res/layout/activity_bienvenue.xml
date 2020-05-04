@@ -29,7 +29,7 @@
             android:textSize="15sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Bienvenue pour l'apprentissage de la Bible.Durant votre étude vous allez beaucoup apprendre sur la parole de DIEU"
+            android:text="@string/bienvenu"
             android:textColor="@color/black"/>
 
     </LinearLayout>

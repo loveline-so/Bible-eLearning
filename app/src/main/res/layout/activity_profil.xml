@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Inscrivez-vous sur Bible eLearning"
+        android:text="@string/inscription"
         android:textColor="@color/violettwo"
         android:textSize="20sp" />
 

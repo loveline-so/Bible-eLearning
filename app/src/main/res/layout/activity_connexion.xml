@@ -16,7 +16,7 @@
         android:textColor="@color/black"
         android:elevation="5dp"
         android:layout_gravity="center"
-        android:text="Creer votre profil et sauvegardez vos informations"/>
+        android:text="@string/conexxionone"/>
 
     <ImageView
         android:layout_width="150dp"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:text="En vous inscrivant vous acceptez nos conditions générales d\'utilisation"/>
+        android:text="@string/conexiontwo"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,14 +56,13 @@
                 android:src="@drawable/facebook"/>
 
             <TextView
-                android:layout_gravity="center"
                 android:layout_width="280dp"
                 android:layout_height="40dp"
-                android:text="Continuer avec Facebook"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/facebook"
                 android:textColor="@color/white"
-                android:textSize="12dp"
-                android:gravity="center">
-            </TextView>
+                android:textSize="12dp"></TextView>
 
 
         </RelativeLayout>
@@ -81,14 +80,13 @@
                 android:src="@drawable/google"/>
 
             <TextView
-                android:layout_gravity="center"
                 android:layout_width="280dp"
                 android:layout_height="40dp"
-                android:text="Continuer avec Google"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/google"
                 android:textColor="@color/white"
-                android:textSize="12dp"
-                android:gravity="center">
-            </TextView>
+                android:textSize="12dp"></TextView>
 
 
         </RelativeLayout>
@@ -104,11 +102,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Deja inscrit ?"/>
+            android:text="@string/deja_inscrit"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Identifiez-vous"
+            android:text="@string/identifier"
             android:layout_marginLeft="10dp"
             android:textStyle="italic"
             android:textSize="15sp"/>
