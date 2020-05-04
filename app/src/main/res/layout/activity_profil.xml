@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Profil">
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Inscrivez-vous sur Bible eLearning"
+        android:textColor="@color/violettwo"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/biblethree"
+        android:scaleType="centerInside"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounderappercu"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Nom"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Prénom"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Adress Email"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Mot de passe"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:text="VALIDER VOTRE INSCRIPTION"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:background="@drawable/rounderraduis">
+    </Button>
+
+
+
+
+</LinearLayout>

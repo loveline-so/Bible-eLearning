@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roundertwo"
+    tools:context=".Bienvenue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/rounderbienven"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/biblethree"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bienvenue pour l'apprentissage de la Bible.Durant votre étude vous allez beaucoup apprendre sur la parole de DIEU"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="280dp"
+        android:src="@drawable/go"/>
+
+
+
+
+</LinearLayout>

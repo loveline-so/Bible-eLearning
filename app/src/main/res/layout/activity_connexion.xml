@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Connexion">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="210dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:text="Creer votre profil et sauvegardez vos informations"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profil"/>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="230dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="En vous inscrivant vous acceptez nos conditions générales d\'utilisation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:elevation="5dp"
+        android:background="@drawable/rounderbienven"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounderraduis"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/facebook"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:text="Continuer avec Facebook"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:gravity="center">
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounderraduis"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/google"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:text="Continuer avec Google"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:gravity="center">
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deja inscrit ?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identifiez-vous"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
